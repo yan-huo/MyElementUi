@@ -1,0 +1,35 @@
+{
+  "name": "ElementUi",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --watch",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "element-ui": "^2.12.0",
+    "tui-image-editor": "^3.15.3",
+    "vue": "^2.7.0"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "@vitejs/plugin-vue2": "^2.2.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.1",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "compression-webpack-plugin": "^6.1.1",
+    "fs-extra": "^8.1.0",
+    "sass": "^1.30.0",
+    "sass-loader": "^8.0.2",
+    "script-ext-html-webpack-plugin": "^2.1.5",
+    "terser-webpack-plugin": "^4.2.3",
+    "vite": "^4.1.0",
+    "vite-plugin-require-transform": "^1.0.9",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-bundle-analyzer": "^3.9.0"
+  }
+}
